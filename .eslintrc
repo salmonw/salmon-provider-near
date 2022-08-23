@@ -1,0 +1,3 @@
+{
+  "extends": ["@salmonw/eslint-config"]
+}
