@@ -1,5 +1,5 @@
 const { restoreAccount } = require('../../index');
-const { CHAIN } = require('../constants');
+const { CHAIN } = require('../src/constants');
 const { MNEMONIC, NETWORK_ID, ACCOUNT_ID } = require('./config');
 
 const TOKEN_IN_ID = 'wrap.testnet';

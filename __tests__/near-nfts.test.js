@@ -1,5 +1,5 @@
 const { restoreAccount } = require('../../index');
-const { CHAIN } = require('../constants');
+const { CHAIN } = require('../src/constants');
 const {
   NETWORK_ID,
   MNEMONIC,

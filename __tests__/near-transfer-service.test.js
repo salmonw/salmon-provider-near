@@ -1,5 +1,5 @@
 const { restoreAccount } = require('../../index');
-const { CHAIN } = require('../constants');
+const { CHAIN } = require('../src/constants');
 const { MNEMONIC, ACCOUNT_ID, IMPLICIT_MNEMONIC, TOKEN_NAME, NETWORK_ID } = require('./config');
 
 test('near-transfer-near', async () => {

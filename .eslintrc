@@ -1,3 +1,7 @@
 {
-  "extends": ["@salmonw/eslint-config"]
+  "extends": ["@salmonw/eslint-config"],
+  "rules": {
+    "no-underscore-dangle": ["error", { "allowAfterThis": true }],
+    "@typescript-eslint/no-unsafe-assignment": 0
+  }
 }
